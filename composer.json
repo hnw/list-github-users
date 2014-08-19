@@ -1,4 +1,11 @@
 {
+    "name":        "hnw/list-github-users",
+    "license":     "MIT",
+    "authors": [
+        {
+            "name": "Yoshio HANAWA"
+        }
+    ],
     "require": {
         "knplabs/github-api": "*",
         "hnw/single-subcommand-console": "*"
