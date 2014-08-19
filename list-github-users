@@ -19,8 +19,8 @@ if (!defined('LIST_GITHUB_USERS_COMPOSER_INSTALL')) {
 require LIST_GITHUB_USERS_COMPOSER_INSTALL;
 
 use Hnw\SingleSubcommandConsole\Application; 
-use Hnw\Command\ListGithubUsersCommand; 
+use Hnw\ListGithubUsers\ListGithubUsersCommand; 
 
-$app = new Application('list-github-users', '0.0.1');
+$app = new Application('list-github-users', '0.0.2');
 $app->add(new ListGithubUsersCommand());
 $app->run();
